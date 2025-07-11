@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edmond Phiri Coaching</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fefcf8;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #112244;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #112244;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #444;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      color: #112244;
+    }
+    .footer {
+      background-color: #112244;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    .logo {
+      max-width: 120px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Edmond Phiri Coaching Logo" class="logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#rise">RISE Program</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Turn Your Pain Into Power</h1>
+    <p>Lead with Peace. Rise into Purpose with Edmond Phiri Coaching.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Edmond</h2>
+    <p>Edmond Phiri is a transformational coach helping resilient individuals rise from survival to significance. With deep roots in lived experience and professional growth, he guides others to find identity, lead with peace, and serve with power.</p>
+  </section>
+
+  <section id="rise" class="section">
+    <h2>The RISE Process™</h2>
+    <ul>
+      <li><strong>R:</strong> Reflect – uncover your true story</li>
+      <li><strong>I:</strong> Identify – break limiting beliefs and roles</li>
+      <li><strong>S:</strong> Strengthen – rebuild with clarity and purpose</li>
+      <li><strong>E:</strong> Execute – lead yourself and others boldly</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Get In Touch</h2>
+    <p>Email: info@edmondphiricoaching.com</p>
+    <p>LinkedIn: <a href="#" style="color:#112244">linkedin.com/in/edmondphiri</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Edmond Phiri Coaching. All rights reserved.</p>
+  </footer>
+</body>
+</html>
